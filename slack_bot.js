@@ -9,7 +9,7 @@ const TOKEN = '[Your Slash Command Token Here]';
 
 // Just an example request to get you started..
 app.get('/', (req, res) => {
-  res.send('Hello, World!');
+  res.ok('Hello, World!');
 });
 
 // This code "exports" a function 'listen` that can be used to start
